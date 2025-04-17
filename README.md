@@ -1,11 +1,11 @@
 # realword-django-rest-framework
 
-> medium-like realworld demo using Django Rest framework and react
+> medium-like realworld blog demo using Django REST framework and Reactjs
 
 # quickstart
 
 ```sh
-# after initial running
+# after initial setup
 
 cd backend/
 pdm start
