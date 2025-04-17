@@ -1,0 +1,56 @@
+.topicList {
+
+  a {
+    color: #373a3c;
+    text-decoration: none;
+  }
+
+  .list-group-item {
+    word-break: break-all;
+    border-radius: 0;
+    border-inline-start-width: 0;
+    border-inline-end-width: 0;
+    background-color: transparent;
+    padding: 24px 0 16px;
+
+    &:first-child {
+      border-block-start-width: 0;
+    }
+
+    &:last-child {
+      border-block-end-width: 0;
+    }
+
+    &:focus,
+    &:hover {
+      background-color: transparent;
+    }
+
+    .text-muted {
+      color: rgba(108, 117, 125, .6) !important;
+    }
+  }
+
+  .avatar {
+    border-radius: 4px;
+
+    &.flex-shrink-0 {
+      flex-shrink: 0 !important;
+    }
+  }
+
+  .favorite {
+    min-width: 80px;
+
+    .btn svg {
+      margin-block-start: -1px;
+      margin-inline-end: 6px;
+    }
+  }
+
+  .updateTime {
+    min-width: 96px;
+    white-space: nowrap;
+    margin-block-start: 3px;
+  }
+}

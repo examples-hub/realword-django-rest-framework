@@ -1,0 +1,42 @@
+.main {
+  min-width: 0;
+  max-width: 1200px;
+  padding: 24px 36px 96px;
+
+  .nav-tabs {
+    font-size: 16px;
+
+    .nav-link {
+      color: #6c757d;
+      border-width: 0;
+      border-block-end-width: 2px;
+      padding-inline-start: 32px;
+      padding-inline-end: 32px;
+
+      &:focus,
+      &:hover,
+      &:active {
+        color: #373a3c;
+        border-color: transparent;
+      }
+
+      &.active {
+        color: #5cb85c;
+        border-color: #5cb85c;
+      }
+    }
+  }
+
+  .topicPagination {
+    // display: none;
+    margin-block-start: 36px;
+
+    .pagination {
+      flex-wrap: wrap;
+
+      .page-item {
+        margin-block-end: 6px;
+      }
+    }
+  }
+}
